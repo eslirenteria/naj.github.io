@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MEXICAN FOOD</title>
+    
+    <!--Styles-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/85190ffeaa.js" crossorigin="anonymous"></script>
+    <link href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+</head>
+<body id="page-top">
+    <!-- Tema principal: Comidas tipicas de Mexico -->
+
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav" style="background: black;">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">MEXICAN FOOD</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" 
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                MENU
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+                    </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Start section -->
+    <header class="masthead  text-white text-center" style="background: #02813E;">
+        <div class="container d-flex align-items-center flex-column">
+    
+          <!-- Masthead Avatar Image -->
+          <img class="masthead-avatar rounded-circle" src="img/mexicano-avatar.jpg" alt="avatar-icon">
+    
+          <!-- Masthead Heading -->
+          <h1 class="masthead-heading display-3">MEXICAN FOOD</h1>
+    
+          <!-- Icon Divider -->
+          <div class="divider-custom divider-light">
+            <!--<div class="divider-custom-line"></div>-->
+            <div class="divider-custom-icon">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star fa-3x"></i>
+              <i class="fas fa-star fa-2x"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <!--<div class="divider-custom-line"></div>-->
+          </div>
+    
+          <!-- Masthead Subheading -->
+          <p class="masthead-subheading font-weight-light mb-0 h3">"Mexico - Food - Culture"</p>
+    
+        </div>
+      </header>
+
+    <!-- Portafolio -->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container jumbotron bg-white">
+            <!-- Hedaer -->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <h1 class="page-section-heading text-center">Top Mexican food</h1>
+                </div>
+                <div class="divider-custom-line"></div>
+              </div>
+            <br>
+            <!-- Grid -->
+            <div id="portfolioItems" class="row"></div>
+        </div>
+
+        <!-- Portafolio content modals-->
+        <div id="portfolioModals"></div>
+        
+  
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="jumbotron bg-white my-0">
+            <div class="container">
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                        <h1 class="page-section-heading text-center">About</h1>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h4 class="text-dark text-justify">
+                            The Mexican cuisine is the set of dishes and techniques culinary Mexico that are part of the traditions and common life of its inhabitants, enriched by the contributions of the various regions of the country, which derives from the experience of the prehispanic Mexico with the kitchen European, among other. The 16 of November of 2010, Mexican cuisine was recognized as Intangible Cultural Heritage of Humanity by Unesco.
+                        </h4>
+                    </div>
+                    <div class="col-lg-6">
+                        <h4 class="text-dark text-justify">
+                            Mexican cuisine has been influenced and has in turn influenced cuisines of other cultures, such as Spanish, French, African, Middle Eastern and Asian. It is testimony to the country's historical culture: many dishes originated in pre-Hispanic Mexico and other important moments in its history. There is a wide range of flavors, colors, textures and influences that make it a great attraction for nationals and foreigners: Mexico is famous for its cuisine.
+                        </h4>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="jumbotron bg-white mt-0">
+            <div class="container">
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                        <h1 class="page-section-heading text-center">Contact Me</h1>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                  </div>
+                <form>
+                    <div class="row">
+                        <div class="col-lg-12 mb-3">
+                            <label for="name"><h3>Name</h3></label>
+                            <input type="text" id="name" class="form-control form-control-lg" placeholder="Enter name">
+                        </div>
+                        <div class="col-lg-12 mb-3">
+                            <label for="email"><h3>Email Address</h3></label>
+                            <input type="text" id="email" class="form-control form-control-lg" placeholder="Enter email address">
+                        </div>
+                        <div class="col-lg-12 mb-3">
+                            <label for="phone"><h3>Phone Number</h3></label>
+                            <input type="text" id="phone" class="form-control form-control-lg" placeholder="Enter phone number">
+                        </div>                 
+                        <div class="col-lg-12 mb-3">
+                            <label for="message"><h3>Message</h3></label>
+                            <textarea type="text" id="message" class="form-control form-control-lg" placeholder="Enter message"></textarea>
+                        </div>
+                        <div class="col-lg-12 mb-3 text-center">
+                            <button class="btn bg-primary btn-lg text-white"><h3>Send</h3></button>
+                        </div>
+                    </div>
+                </form>
+            </div>        
+        </div>
+    </section>
+    
+    <!-- Footer section -->
+    <footer class="footer" style="background: #D51635;">
+        <div class="container">
+            <div class="row py-5 text-center">
+                <div class="col-lg-4 col-md-4 text-white mb-3">
+                    <h3><a href="https://www.linkedin.com/in/jossu%C3%A9-esl%C3%AD-renter%C3%ADa-ram%C3%ADrez-719abb137/" target="__blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-256.png" width="50"></a> Jossué Rentería</h3>
+                    <img src="https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/178-man-astronaut-2-256.png" alt="">
+                    <hr>
+                    <h4>
+                        Jr. Software Engineer
+                    </h4>
+                </div>
+                <div class="col-lg-4 col-md-4 text-white mb-3">
+                    <h3><a href="https://www.linkedin.com/in/adilene-robles-4a1a6a198/" target="__blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-256.png" width="50"></a> Adilene Robles</h3>
+                    <img src="https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/172-woman-artist-2-256.png" alt="">
+                    <hr>
+                    <h4>
+                        Jr. Software Engineer
+                    </h4>
+                </div>
+                <div class="col-lg-4 col-md-4 text-white">
+                    <h3><a href="https://www.linkedin.com/in/nephtali-hernandez/" target="__blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-256.png" width="50"></a> Nephtali Hernández</h3>                    
+                    <img src="https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/142-man-cook-2-256.png" alt="">
+                    <hr>
+                    <h4>
+                        Jr. Software Engineer
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/app.js"></script>
+
+</body>
+</html>
